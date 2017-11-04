@@ -1,0 +1,47 @@
+'scopeName': 'source.nitrogen-vm',
+'name': 'Nitrogen VM',
+'fileTypes': ['nvm', 'n'],
+
+'patterns': [
+	# Numbers
+	{
+		'match': '[0-9]+'
+		'name': 'constant.numeric.nitrogen-vm'
+	},
+	
+	# Keywords
+	{
+		'match': '\\b(const|load|store|mov|add|sub|mul|div|addr|iconst|iload|istore|imov|iadd|isub|imul|idiv|iaddr|wconst|wload|wstore|wmov|wadd|wsub|wmul|wdiv|waddr|db|dw|dd|ldb|ldw|ldd|call|ret|ncall|inc|dec|jmp|jl|jg|jle|jge|je|jne|cmp|exit)\\b'
+		'name': 'keyword.control.nitrogen-vm'
+	},
+	
+	# Registers
+	{
+		'match': '\\b(eax|ebx|ecx|edx|esp|ebp|erm)\\b'
+		'name': 'entity.other.attribute-name.nitrogen-vm'
+	},
+	
+	# Labels
+	{
+		'match': '^\\b.*:|@\\w+\\b'
+		'name': 'entity.name.function.nitrogen-vm'
+	},
+	
+	# Preprocessors
+	{
+		'match': '^#.+',
+		'name': 'variable.other.nitrogen-vm'
+	},
+	
+	# Native Calls
+	{
+		'match': '\\B%\\w+'
+		'name': 'markup.bold.nitrogen-vm'
+	},
+	
+	# Comments
+	{
+		'match': ';\\Z|;.*$'
+		'name': 'comment.line.character.nitrogen-vm'
+	}
+]
