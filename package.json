@@ -1,17 +1,17 @@
 {
-	"name": "language-nitrogen-vm",
-	"version": "0.0.0",
-	"description": "Nitrogen VM language support for Atom",
-	"engines": {
-		"atom": "*"
-	},
-	"dependencies": {},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/jonahisadev/language-nitrogen-vm.git"
-	},
-	"bugs": {
-		"url": "https://github.com/jonahisadev/language-nitrogen-vm/issues"
-	},
-	"license": "MIT"
+  "name": "language-nitrogen-vm",
+  "version": "0.1.0",
+  "description": "Nitrogen VM language support for Atom",
+  "engines": {
+    "atom": "*"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonahisadev/language-nitrogen-vm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonahisadev/language-nitrogen-vm/issues"
+  },
+  "license": "MIT"
 }
