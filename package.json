@@ -1,6 +1,6 @@
 {
   "name": "language-nitrogen-vm",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Nitrogen VM language support for Atom",
   "engines": {
     "atom": "*"
