@@ -11,7 +11,7 @@
 	
 	# Keywords
 	{
-		'match': '\\b(const|load|store|mov|add|sub|mul|div|addr|iconst|iload|istore|imov|iadd|isub|imul|idiv|iaddr|wconst|wload|wstore|wmov|wadd|wsub|wmul|wdiv|waddr|db|dw|dd|ldb|ldw|ldd|stb|stw|std|call|ret|ncall|inc|dec|jmp|jl|jg|jle|jge|je|jne|cmp|exit)\\b'
+		'match': '\\b(const|load|store|mov|add|sub|mul|div|addr|iconst|iload|istore|imov|iadd|isub|imul|idiv|iaddr|wconst|wload|wstore|wmov|wadd|wsub|wmul|wdiv|waddr|db|dw|dd|ldb|ldw|ldd|stb|stw|std|call|ret|ncall|inc|dec|pusha|popa|jmp|jl|jg|jle|jge|je|jne|cmp|exit)\\b'
 		'name': 'keyword.control.nitrogen-vm'
 	},
 	
