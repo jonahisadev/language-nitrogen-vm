@@ -1,23 +1,23 @@
 'scopeName': 'source.nitrogen-vm',
 'name': 'Nitrogen VM',
-'fileTypes': ['nvm', 'n'],
+'fileTypes': ['nvm'],
 
 'patterns': [
 	# Numbers
 	{
-		'match': '[0-9]+'
+		'match': '0x.\\S|0x.\\b|[0-9]+'
 		'name': 'constant.numeric.nitrogen-vm'
 	},
 	
 	# Keywords
 	{
-		'match': '\\b(const|load|store|mov|add|sub|mul|div|addr|iconst|iload|istore|imov|iadd|isub|imul|idiv|iaddr|wconst|wload|wstore|wmov|wadd|wsub|wmul|wdiv|waddr|db|dw|dd|ldb|ldw|ldd|stb|stw|std|call|ret|ncall|inc|dec|pusha|popa|jmp|jl|jg|jle|jge|je|jne|cmp|exit)\\b'
+		'match': '\\b(const|load|store|mov|add|sub|mul|div|addr|iconst|iload|istore|imov|iadd|isub|imul|idiv|iaddr|wconst|wload|wstore|wmov|wadd|wsub|wmul|wdiv|waddr|bconst|bload|bstore|bmov|badd|bsub|bmul|bdiv|baddr|db|dw|dd|ldb|ldw|ldd|stb|stw|std|call|ret|ncall|inc|dec|pusha|popa|jmp|jl|jg|jle|jge|je|jne|cmp|exit)\\b'
 		'name': 'keyword.control.nitrogen-vm'
 	},
 	
 	# Registers
 	{
-		'match': '\\b(eax|ebx|ecx|edx|esp|ebp|erm)\\b'
+		'match': '\\b(eax|ebx|ecx|edx|erx|esp|ebp|erm)\\b'
 		'name': 'entity.other.attribute-name.nitrogen-vm'
 	},
 	
